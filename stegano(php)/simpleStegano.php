@@ -2,6 +2,7 @@
 class SimpleStegano{
 	private $imagePath;
 	private $message;
+	public $msg_ori;
 	public function __construct($imgPath,$msg)
 	{
 		$this->msg_ori = $msg;
@@ -180,7 +181,7 @@ class SimpleStegano{
 $file = 'image/Ontology.png';
 $pesan = 'ayo belajar steganography. simple steganography by bima heweh :v';
 $stgno = new SimpleStegano($file,$pesan);
-echo $stgno->show_msg()."<br/>";
+echo $stgno->msg_ori."<br/>";
 ?>
 <html>
 <head></head>
