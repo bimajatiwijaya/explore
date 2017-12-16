@@ -72,3 +72,5 @@ class QueenChessBoard():
             self.blocks[x][y].set_not_safe()
             self.update_danger_block(x=x+1, y=y+1)
             self.update_danger_block(x=x-1, y=y-1)
+            self.update_danger_block(x=x+1, y=y-1)
+            self.update_danger_block(x=x-1, y=y+1)
