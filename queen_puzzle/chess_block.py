@@ -17,7 +17,6 @@ class ChessBlock(point.Point):
         self.x = x
         self.y = y
         self.army = army
-        self.safe = False
 
     def is_safe(self):
         """ is position safe """

@@ -28,7 +28,8 @@ class QueenChessBoard():
     def setup(self, length=0):
         """ setup chessboard and chess_block """
         self.length = length
-        self.blocks = [[0 for x in range(length)] for y in range(length)] 
+        self.blocks = \
+            [[0 for x in range(length)] for y in range(length)] 
         for i in range(0, self.length):
             for j in range(0, self.length):
                 a_block = chess_block.ChessBlock()
@@ -49,28 +50,45 @@ class QueenChessBoard():
             print "Class not setup yet."
 
     def update_danger_block(self, x=0, y=0):
-        """ Update status each block (up and down):
-        1. horisontal 
-        2. vertical
-        3. diagonal
+        """ 
+        Update status each block (up and down):
+        1. horisontal (right & left)
+        2. vertical (up & down)
+        3. diagonal (right & left)
         """
-        if self.length == x or x == -1:
-            return
-        elif x < self.length or x > -1:
-            self.blocks[x][y].set_not_safe()
-            self.update_danger_block(x=x+1, y=y)
-            self.update_danger_block(x=x-1, y=y)
-        elif self.length == y or y == -1:
-            return
-        elif y < self.length or y > -1:
-            self.blocks[x][y].set_not_safe()
-            self.update_danger_block(x=x, y=y+1)
-            self.update_danger_block(x=x, y=y-1)
-        elif self.length == x == y or x == y == -1:
-            pass
+        self.set_danger_horisontal(x, y, True)
+        self.set_danger_horisontal(x, y, False)
+        self.set_danger_vertical(x, y, True)
+        self.set_danger_vertical(x, y, False)
+
+
+    def set_danger_horisontal(self, x=0, y=0, go_right=True):
+        """ Update status to danger horisontal (right) """
+        if go_right:
+            if x < self.length:
+                self.blocks[x][y].set_not_safe()
+                self.set_danger_horisontal(x+1, y, True)
+            else:
+                return
         else:
-            self.blocks[x][y].set_not_safe()
-            self.update_danger_block(x=x+1, y=y+1)
-            self.update_danger_block(x=x-1, y=y-1)
-            self.update_danger_block(x=x+1, y=y-1)
-            self.update_danger_block(x=x-1, y=y+1)
+            if x > -1:
+                self.blocks[x][y].set_not_safe()
+                self.set_danger_horisontal(x-1, y, False)
+            else:
+                return
+
+    def set_danger_vertical(self, x=0, y=0, go_up=True):
+        """ Update status to danger vertically """
+        if go_up:
+            if y < self.length:
+                self.blocks[x][y].set_not_safe()
+                self.set_danger_vertical(x, y+1, True)
+            else:
+                return
+        else:
+            if y >= 0:
+                self.blocks[x][y].set_not_safe()
+                self.set_danger_vertical(x, y-1, False)
+            else:
+                return
+
