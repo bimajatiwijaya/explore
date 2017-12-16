@@ -6,10 +6,10 @@ class Point:
     x = 0
     y = 0
 
-    def __init__(self, x=0, y=0):
+    def __init__(self):
         """ constructor """
-        self.x = x
-        self.y = y
+        self.x = 0
+        self.y = 0
     
     def set_point(self, x=0, y=0):
         """ Set Point """
@@ -23,3 +23,6 @@ class Point:
     def get_y(self):
         """ get y """
         return self.y
+    def get_coordinat(self):
+        """ get x and y """
+        return self.x, self.y
