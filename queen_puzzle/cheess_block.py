@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import point
 
-class c_block(point.Point):
+class ChessBlock(point.Point):
+    """ Chess Block class """
     army = ''
     safe = True
 

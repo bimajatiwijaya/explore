@@ -10,6 +10,11 @@ class Point:
         """ constructor """
         self.x = x
         self.y = y
+    
+    def set_point(self, x=0, y=0):
+        """ Set Point """
+        self.x = x
+        self.y = y
 
     def get_x(self):
         """ get x """
