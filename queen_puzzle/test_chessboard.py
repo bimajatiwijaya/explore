@@ -20,6 +20,14 @@ class chessboard_test(unittest.TestCase):
         self.assertEqual(True, True not in l_hor)
         self.assertEqual(True, self.chess_1.blocks[0][0].get_status())
         self.assertEqual(True, self.chess_1.blocks[3][3].get_status())
+        """ Diagonal test set_danger_diagonal_1 """
+        self.assertEqual(False, self.chess_1.blocks[3][2].get_status())
+        self.assertEqual(False, self.chess_1.blocks[1][0].get_status())
+        self.assertEqual(False, self.chess_1.blocks[3][0].get_status())
+        self.assertEqual(False, self.chess_1.blocks[1][2].get_status())
+        self.assertEqual(False, self.chess_1.blocks[0][3].get_status())
+        
+        
 
 if __name__ == '__main__':
     unittest.main()

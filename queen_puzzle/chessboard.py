@@ -45,7 +45,7 @@ class QueenChessBoard():
             block = self.blocks[x][y]
             if not block.set_block_status():
                 block.set_army(army="queen")
-                self.update_danger_block(x=x, y=y)
+                self.update_danger_block(x, y)
         else:
             print "Class not setup yet."
 
@@ -60,19 +60,23 @@ class QueenChessBoard():
         self.set_danger_horisontal(x, y, False)
         self.set_danger_vertical(x, y, True)
         self.set_danger_vertical(x, y, False)
+        self.set_danger_diagonal_1(x, y, True)
+        self.set_danger_diagonal_1(x, y, False)
+        self.set_danger_diagonal_2(x, y, True)
+        self.set_danger_diagonal_2(x, y, False)
 
 
     def set_danger_horisontal(self, x=0, y=0, go_right=True):
         """ Update status to danger horisontal (right) """
         if go_right:
             if x < self.length:
-                self.blocks[x][y].set_not_safe()
+                self.blocks[x][y].attack_queen_block()
                 self.set_danger_horisontal(x+1, y, True)
             else:
                 return
         else:
             if x > -1:
-                self.blocks[x][y].set_not_safe()
+                self.blocks[x][y].attack_queen_block()
                 self.set_danger_horisontal(x-1, y, False)
             else:
                 return
@@ -81,14 +85,46 @@ class QueenChessBoard():
         """ Update status to danger vertically """
         if go_up:
             if y < self.length:
-                self.blocks[x][y].set_not_safe()
+                self.blocks[x][y].attack_queen_block()
                 self.set_danger_vertical(x, y+1, True)
             else:
                 return
         else:
             if y >= 0:
-                self.blocks[x][y].set_not_safe()
+                self.blocks[x][y].attack_queen_block()
                 self.set_danger_vertical(x, y-1, False)
             else:
                 return
+
+    def set_danger_diagonal_1(self, x=0, y=0, go_up=True):
+        """ Diagonal 1 x and y increase and diagoal left 
+        x and y decrease """
+        if go_up:
+            if y < self.length and x < self.length:
+                self.blocks[x][y].attack_queen_block()
+                self.set_danger_diagonal_1(x+1, y+1, True)
+            else:
+                return
+        else:
+            if y >= 0 and x >=0:
+                self.blocks[x][y].attack_queen_block()
+                self.set_danger_diagonal_1(x-1, y-1, False)
+            else:
+                return
+
+    def set_danger_diagonal_2(self, x=0, y=0, go_up=True):
+        """ diagonal 2 x decrease and y increase
+        diagoal x increase and y decrease """
+        if go_up:
+            if y < self.length and x >= 0:
+                self.blocks[x][y].attack_queen_block()
+                self.set_danger_diagonal_2(x-1, y+1, True)
+            else:
+                return
+        else:
+            if x < self.length and y >= 0:
+                self.blocks[x][y].attack_queen_block()
+                self.set_danger_diagonal_2(x+1, y-1, False)
+            else:
+                return False
 
