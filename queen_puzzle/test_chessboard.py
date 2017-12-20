@@ -13,13 +13,21 @@ class chessboard_test(unittest.TestCase):
         r_hor = []
         for i in range(self.length):
             r_hor.append(self.chess_1.blocks[2][i].get_status())
-        self.assertEqual(True, not all(r_hor))
+        self.assertEqual(True, True not in r_hor)
         l_hor = []
         for i in range(self.length):
-            r_hor.append(self.chess_1.blocks[i][1].get_status())
-        self.assertEqual(True, not all(r_hor))
+            l_hor.append(self.chess_1.blocks[i][1].get_status())
+        self.assertEqual(True, True not in l_hor)
         self.assertEqual(True, self.chess_1.blocks[0][0].get_status())
         self.assertEqual(True, self.chess_1.blocks[3][3].get_status())
+        """ Diagonal test set_danger_diagonal_1 """
+        self.assertEqual(False, self.chess_1.blocks[3][2].get_status())
+        self.assertEqual(False, self.chess_1.blocks[1][0].get_status())
+        self.assertEqual(False, self.chess_1.blocks[3][0].get_status())
+        self.assertEqual(False, self.chess_1.blocks[1][2].get_status())
+        self.assertEqual(False, self.chess_1.blocks[0][3].get_status())
+        
+        
 
 if __name__ == '__main__':
     unittest.main()

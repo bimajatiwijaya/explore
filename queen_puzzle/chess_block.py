@@ -39,3 +39,12 @@ class ChessBlock(point.Point):
     def set_not_safe(self):
         """ Set status """
         self.safe = False
+
+    def attack_queen_block(self):
+        """ Set status """
+        if self.army == 'queen':
+            self.safe = False
+            return True
+        else:
+            self.safe = False
+            return False
