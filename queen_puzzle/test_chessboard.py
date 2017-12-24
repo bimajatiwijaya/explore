@@ -30,7 +30,13 @@ class chessboard_test(unittest.TestCase):
         self.assertEqual(False, self.chess_1.blocks[3][0].get_status())
         self.assertEqual(False, self.chess_1.blocks[1][2].get_status())
         self.assertEqual(False, self.chess_1.blocks[0][3].get_status())
-    
+        """ Test Undo """
+        self.chess_1.take_queen(2, 1)
+        for i in range(self.length):
+            for j in range(self.length):
+                self.assertTrue(self.chess_1.blocks[i][j].safe, 
+                "Ups, this's false.")
+
     def test_search_save_block(self):
         self.chess_2.set_queen(0, 0)
         i, j = self.chess_2.search_save_block()

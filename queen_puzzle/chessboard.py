@@ -88,7 +88,17 @@ class QueenChessBoard():
         self.set_danger_diagonal_2(x, y, True)
         self.set_danger_diagonal_2(x, y, False)
 
+    def take_queen(self, x=0, y=0):
+        self.set_save_horisontal(x, y, True)
+        self.set_save_horisontal(x, y, False)
+        self.set_save_vertical(x, y, True)
+        self.set_save_vertical(x, y, False)
+        self.set_save_diagonal_1(x, y, True)
+        self.set_save_diagonal_1(x, y, False)
+        self.set_save_diagonal_2(x, y, True)
+        self.set_save_diagonal_2(x, y, False)
 
+    # DANGER
     def set_danger_horisontal(self, x=0, y=0, go_right=True):
         """ Update status to danger horisontal (right) """
         if go_right:
@@ -148,6 +158,69 @@ class QueenChessBoard():
             if x < self.length and y >= 0:
                 self.blocks[x][y].attack_queen_block()
                 self.set_danger_diagonal_2(x+1, y-1, False)
+            else:
+                return False
+
+    # SET SAVE
+    def set_save_horisontal(self, x=0, y=0, go_right=True):
+        """ Update status to danger horisontal (right) """
+        if go_right:
+            if x < self.length:
+                self.blocks[x][y].clean_block()
+                self.set_save_horisontal(x+1, y, True)
+            else:
+                return
+        else:
+            if x > -1:
+                self.blocks[x][y].clean_block()
+                self.set_save_horisontal(x-1, y, False)
+            else:
+                return
+
+    def set_save_vertical(self, x=0, y=0, go_up=True):
+        """ Update status to danger vertically """
+        if go_up:
+            if y < self.length:
+                self.blocks[x][y].clean_block()
+                self.set_save_vertical(x, y+1, True)
+            else:
+                return
+        else:
+            if y >= 0:
+                self.blocks[x][y].clean_block()
+                self.set_save_vertical(x, y-1, False)
+            else:
+                return
+
+    def set_save_diagonal_1(self, x=0, y=0, go_up=True):
+        """ Diagonal 1 x and y increase and diagoal left 
+        x and y decrease """
+        if go_up:
+            if y < self.length and x < self.length:
+                self.blocks[x][y].clean_block()
+                self.set_save_diagonal_1(x+1, y+1, True)
+            else:
+                return
+        else:
+            if y >= 0 and x >=0:
+                self.blocks[x][y].clean_block()
+                self.set_save_diagonal_1(x-1, y-1, False)
+            else:
+                return
+
+    def set_save_diagonal_2(self, x=0, y=0, go_up=True):
+        """ diagonal 2 x decrease and y increase
+        diagoal x increase and y decrease """
+        if go_up:
+            if y < self.length and x >= 0:
+                self.blocks[x][y].clean_block()
+                self.set_save_diagonal_2(x-1, y+1, True)
+            else:
+                return
+        else:
+            if x < self.length and y >= 0:
+                self.blocks[x][y].clean_block()
+                self.set_save_diagonal_2(x+1, y-1, False)
             else:
                 return False
 

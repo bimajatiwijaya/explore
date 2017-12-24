@@ -12,6 +12,9 @@ class ChessBlock(point.Point):
 
     def set_block_status(self, safe=True):
         self.safe = safe
+    def clean_block(self):
+        self.safe = True
+        self.army = ''
 
     def set_chess_block(self, x=0, y=0, army=""):
         self.x = x
