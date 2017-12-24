@@ -10,7 +10,7 @@ import chess_block
 """
 class QueenChessBoard():
     """ Class queen board """
-    total_queen = 0
+    non_assigned_queen = 0
     length = 0
     configured = False
     blocks = []
@@ -25,7 +25,7 @@ class QueenChessBoard():
         self.save_blocks = []
         self.danger_blocks = []
 
-    def setup(self, length=0):
+    def setup(self, length=0, total_queen=0):
         """ setup chessboard and chess_block """
         self.length = length
         self.blocks = \
@@ -38,6 +38,7 @@ class QueenChessBoard():
                 self.blocks[i][j] = a_block
         self.save_blocks = self.blocks
         self.configured = True
+        self.non_assigned_queen = total_queen
 
     def set_queen(self, x=0, y=0):
         """ Assign queen in chess board """
@@ -48,6 +49,28 @@ class QueenChessBoard():
                 self.update_danger_block(x, y)
         else:
             print "Class not setup yet."
+
+    def play(self, x=0, y=0):
+        """ play and return total solution """
+        i, j = self.search_save_block()
+        if i == -1 and self.non_assigned_queen > 0:
+            # No place for non assigned queen
+            return 0
+        elif i == -1 and self.non_assigned_queen == 0:
+            # solution found
+            return 1
+        else:
+            self.blocks[i][j].set_army(army="queen")
+            self.update_danger_block(i, j)
+            self.non_assigned_queen -= 1 
+            return 0 + self.play(i, j)
+
+    def search_save_block(self):
+        for i in range(self.length):
+            for j in range(self.length):
+                if self.blocks[i][j].get_status():
+                    return i, j
+        return -1, -1
 
     def update_danger_block(self, x=0, y=0):
         """ 
