@@ -8,3 +8,6 @@ When done you will get this feedback
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/../opencv/build
+cd ../opencv/build
+make
+make install
