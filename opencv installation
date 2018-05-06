@@ -1,0 +1,10 @@
+Linux 16.04
+sudo apt-get install build-essential
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+clone your fork repository from opencv
+cd your opencv repository
+cmake -DETHASHCL=ON -DETHASHCUDA=ON -DAPICORE=ON -H. -Bbuild
+When done you will get this feedback
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/../opencv/build
