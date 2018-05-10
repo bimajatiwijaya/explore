@@ -1,0 +1,406 @@
+LOG error : 
+Description	Resource	Path	Location	Type
+Program "/ndk-build.cmd" not found in PATH	OpenCV Tutorial 2 - Mixed Processing		 	C/C++ Problem
+Project 'OpenCV Library - @OPENCV_VERSION@' is missing required source folder: 'gen'	OpenCV Library - @OPENCV_VERSION@		Build path	Build Path Problem
+Project 'OpenCV Library - @OPENCV_VERSION@' is missing required source folder: 'src'	OpenCV Library - @OPENCV_VERSION@		Build path	Build Path Problem
+Project 'OpenCV Sample - 15 puzzle' is missing required source folder: 'gen'	OpenCV Sample - 15 puzzle		Build path	Build Path Problem
+Project 'OpenCV Sample - camera-calibration' is missing required source folder: 'gen'	OpenCV Sample - camera-calibration		Build path	Build Path Problem
+Project 'OpenCV Sample - color-blob-detection' is missing required source folder: 'gen'	OpenCV Sample - color-blob-detection		Build path	Build Path Problem
+Project 'OpenCV Sample - face-detection' is missing required source folder: 'gen'	OpenCV Sample - face-detection		Build path	Build Path Problem
+Project 'OpenCV Sample - image-manipulations' is missing required source folder: 'gen'	OpenCV Sample - image-manipulations		Build path	Build Path Problem
+Project 'OpenCV Tutorial 1 - Camera Preview' is missing required source folder: 'gen'	OpenCV Tutorial 1 - Camera Preview		Build path	Build Path Problem
+Project 'OpenCV Tutorial 2 - Mixed Processing' is missing required source folder: 'gen'	OpenCV Tutorial 2 - Mixed Processing		Build path	Build Path Problem
+Project 'OpenCV Tutorial 3 - Camera Control' is missing required source folder: 'gen'	OpenCV Tutorial 3 - Camera Control		Build path	Build Path Problem
+Project 'OpenCV Tutorial 4 - Use OpenCL' is missing required source folder: 'gen'	OpenCV Tutorial 4 - Use OpenCL		Build path	Build Path Problem
+Project 'OpenCV_JavaAPI_Tests' is missing required source folder: 'gen'	OpenCV_JavaAPI_Tests		Build path	Build Path Problem
+Project 'OpenCVEngineService' is missing required source folder: 'gen'	OpenCVEngineService		Build path	Build Path Problem
+The project cannot be built until build path errors are resolved	OpenCV Library - @OPENCV_VERSION@		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Sample - 15 puzzle		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Sample - camera-calibration		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Sample - color-blob-detection		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Sample - face-detection		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Sample - image-manipulations		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Tutorial 1 - Camera Preview		Unknown	Java Problem
+Program "/ndk-build.cmd" not found in PATH	OpenCV Sample - face-detection		 	C/C++ Problem
+The project cannot be built until build path errors are resolved	OpenCV Tutorial 2 - Mixed Processing		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Tutorial 3 - Camera Control		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV Tutorial 4 - Use OpenCL		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCVEngineService		Unknown	Java Problem
+The project cannot be built until build path errors are resolved	OpenCV_JavaAPI_Tests		Unknown	Java Problem
+Program "ndk-build.cmd" not found in PATH	OpenCV Tutorial 4 - Use OpenCL		 	C/C++ Problem
+The import org.opencv cannot be resolved	Main.java	/HelloCV/src	line 1	Java Problem
+The import org.opencv cannot be resolved	Main.java	/HelloCV/src	line 2	Java Problem
+The import org.opencv cannot be resolved	Main.java	/HelloCV/src	line 3	Java Problem
+Core cannot be resolved to a variable	Main.java	/HelloCV/src	line 8	Java Problem
+Core cannot be resolved to a variable	Main.java	/HelloCV/src	line 9	Java Problem
+CvType cannot be resolved to a variable	Main.java	/HelloCV/src	line 10	Java Problem
+Mat cannot be resolved	Main.java	/HelloCV/src	line 10	Java Problem
+Mat cannot be resolved to a type	Main.java	/HelloCV/src	line 10	Java Problem
+                template<class _Tp, int n> cv::Mat::Mat(const cv::Vec<_Tp, m>&, bool)	myopencv		line 1002, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp, int m, int n> cv::Mat::Mat(const cv::Matx<_Tp, m, n>&, bool)	myopencv		line 1006, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> cv::Mat::Mat(const cv::Point_<_Tp>&, bool)	myopencv		line 1010, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> cv::Mat::Mat(const cv::Point3_<_Tp>&, bool)	myopencv		line 1014, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘cv::Vec<_Tp, cn>::Vec’ declared as an ‘inline’ variable	myopencv		line 1015, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘initializer_list’ is not a member of ‘std’	myopencv		line 1015, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘int cv::Vec<_Tp, cn>::Vec’ is not a static data member of ‘class cv::Vec<_Tp, cn>’	myopencv		line 1015, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 1015, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+expected primary-expression before ‘>’ token	myopencv		line 1015, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+template definition of non-template ‘int cv::Vec<_Tp, cn>::Vec’	myopencv		line 1015, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+                template<class _Tp> cv::Mat::Mat(const cv::MatCommaInitializer_<_Tp>&)	myopencv		line 1018, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+candidates are: cv::Mat::Mat(const cv::cuda::GpuMat&)	myopencv		line 1021, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Ptr<T>::Ptr()	myopencv		line 112, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 1254, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 1328, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+prototype for ‘cv::Mat::Mat(cv::Mat)’ does not match any in class ‘cv::Mat’	myopencv		line 1328, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Ptr<T>::Ptr(const cv::Ptr<T>&)	myopencv		line 134, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 1353, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 1355, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 1359, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Mat’ and ‘cv::Mat’)	myopencv		line 136, external location: /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 142, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::MotionFilterBase>’ and ‘cv::Ptr<cv::videostab::MotionFilterBase>’)	myopencv		line 144, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::IDenseOptFlowEstimator>’ and ‘cv::Ptr<cv::videostab::IDenseOptFlowEstimator>’)	myopencv		line 146, external location: /usr/local/include/opencv2/videostab/inpainting.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_()	myopencv		line 1502, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(int, int)	myopencv		line 1509, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(int, int, const _Tp&)	myopencv		line 1515, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(cv::Size)	myopencv		line 1522, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(cv::Size, const _Tp&)	myopencv		line 1527, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(int, const int*)	myopencv		line 1534, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(int, const int*, const _Tp&)	myopencv		line 1539, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(int, const int*, _Tp*, const size_t*)	myopencv		line 1544, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Mat_<_Tp>&, const cv::Range*)	myopencv		line 1549, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Mat_<_Tp>&, const std::vector<cv::Range>&)	myopencv		line 1554, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Mat&)	myopencv		line 1559, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Mat_<_Tp>&)	myopencv		line 1567, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(int, int, _Tp*, size_t)	myopencv		line 1572, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Mat_<_Tp>&, const cv::Range&, const cv::Range&)	myopencv		line 1577, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Mat_<_Tp>&, const Rect&)	myopencv		line 1582, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Point_<typename cv::DataType<_Tp>::channel_type>&, bool)	myopencv		line 1605, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::Point3_<typename cv::DataType<_Tp>::channel_type>&, bool)	myopencv		line 1614, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::MatCommaInitializer_<_Tp>&)	myopencv		line 1623, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const std::vector<_Tp>&, bool)	myopencv		line 1628, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 1630, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘cv::Mat_<_Tp>::Mat_’ declared as an ‘inline’ variable	myopencv		line 1633, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘initializer_list’ is not a member of ‘std’	myopencv		line 1633, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘int cv::Mat_<_Tp>::Mat_’ is not a static data member of ‘class cv::Mat_<_Tp>’	myopencv		line 1633, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 1633, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘>’ token	myopencv		line 1633, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+template definition of non-template ‘int cv::Mat_<_Tp>::Mat_’	myopencv		line 1633, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(int)	myopencv		line 1638, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘initializer_list’ in namespace ‘std’ does not name a template type	myopencv		line 1638, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 1638, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 1639, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘sizes’ was not declared in this scope	myopencv		line 1639, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::IMotionStabilizer>’ and ‘cv::Ptr<cv::videostab::IMotionStabilizer>’)	myopencv		line 164, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 1643, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 1643, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 1644, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘copyData’ was not declared in this scope	myopencv		line 1644, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::WobbleSuppressorBase>’ and ‘cv::Ptr<cv::videostab::WobbleSuppressorBase>’)	myopencv		line 167, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 175, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ is not a member of ‘std’	myopencv		line 175, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘cv::_OutputArray::_OutputArray’ declared as an ‘inline’ variable	myopencv		line 175, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 997, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 997, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 992, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘initializer_list’ in namespace ‘std’ does not name a template type	myopencv		line 992, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 988, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+default template arguments may not be used in function templates without -std=c++11 or -std=gnu++11	myopencv		line 988, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘initializer_list’ in namespace ‘std’ does not name a template type	myopencv		line 988, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘>’ before ‘<’ token	myopencv		line 987, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘enable_if’ in namespace ‘std’ does not name a template type	myopencv		line 987, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+template definition of non-template ‘int cv::Matx<_Tp, m, n>::Matx’	myopencv		line 663, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 88, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 88, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 89, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 92, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 92, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 93, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘>’ token	myopencv		line 663, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 663, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘int cv::Matx<_Tp, m, n>::Matx’ is not a static data member of ‘class cv::Matx<_Tp, m, n>’	myopencv		line 663, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘initializer_list’ is not a member of ‘std’	myopencv		line 663, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+‘cv::Matx<_Tp, m, n>::Matx’ declared as an ‘inline’ variable	myopencv		line 663, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+#error "OpenCV 4.x+ requires enabled C++11 support"	myopencv		line 421, external location: /usr/local/include/opencv2/core/cvdef.h	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 404, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 404, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 403, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 402, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 402, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 401, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 390, external location: /usr/local/include/opencv2/core/cvstd.hpp	C/C++ Problem
+invalid constructor; you probably meant ‘cv::Ptr<T> (const cv::Ptr<T>&)’	myopencv		line 389, external location: /usr/local/include/opencv2/core/cvstd.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 389, external location: /usr/local/include/opencv2/core/cvstd.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 360, external location: /usr/local/include/opencv2/core/matx.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 335, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 335, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 334, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 333, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 333, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 332, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+#error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.	myopencv		line 32, external location: /usr/include/c++/5/bits/c++0x_warning.h	C/C++ Problem
+candidates are: template<class T> template<class Y> cv::Ptr<T>::Ptr(const cv::Ptr<Y>&, T*)	myopencv		line 319, external location: /usr/local/include/opencv2/core/cvstd.hpp	C/C++ Problem
+                template<class T> template<class Y> cv::Ptr<T>::Ptr(const cv::Ptr<Y>&)	myopencv		line 312, external location: /usr/local/include/opencv2/core/cvstd.hpp	C/C++ Problem
+‘int cv::_InputOutputArray::_InputOutputArray’ is not a static data member of ‘class cv::_InputOutputArray’	myopencv		line 294, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+template definition of non-template ‘int cv::_InputOutputArray::_InputOutputArray’	myopencv		line 294, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘cv::_InputOutputArray::_InputOutputArray’ declared as an ‘inline’ variable	myopencv		line 294, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘,’ token	myopencv		line 294, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ is not a member of ‘std’	myopencv		line 294, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 325, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 325, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 326, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 329, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 329, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 330, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘initializer_list’ in namespace ‘std’ does not name a template type	myopencv		line 569, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 569, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 572, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 573, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘initializer_list’ in namespace ‘std’ does not name a template type	myopencv		line 577, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 577, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘s’ does not name a type	myopencv		line 581, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘;’ before ‘do’	myopencv		line 583, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘do’	myopencv		line 583, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘)’ before ‘do’	myopencv		line 583, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 583, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 584, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘sizes’ was not declared in this scope	myopencv		line 585, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘list’ was not declared in this scope	myopencv		line 585, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 589, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 589, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 590, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘copyData’ was not declared in this scope	myopencv		line 595, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Mat’ and ‘const cv::Mat’)	myopencv		line 769, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 294, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                template<class T> template<class Y, class D> cv::Ptr<T>::Ptr(Y*, D)	myopencv		line 291, external location: /usr/local/include/opencv2/core/cvstd.hpp	C/C++ Problem
+template definition of non-template ‘int cv::_InputOutputArray::_InputOutputArray’	myopencv		line 290, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘,’ token	myopencv		line 290, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘int cv::_InputOutputArray::_InputOutputArray’ is not a static data member of ‘class cv::_InputOutputArray’	myopencv		line 290, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘cv::_InputOutputArray::_InputOutputArray’ declared as an ‘inline’ variable	myopencv		line 290, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ is not a member of ‘std’	myopencv		line 290, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 290, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                template<class T> template<class Y> cv::Ptr<T>::Ptr(Y*)	myopencv		line 284, external location: /usr/local/include/opencv2/core/cvstd.hpp	C/C++ Problem
+                template<class _Tp, long unsigned int _Nm> cv::Mat::Mat(int)	myopencv		line 997, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> cv::Mat::Mat(int)	myopencv		line 992, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp, class> cv::Mat::Mat(int)	myopencv		line 988, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> cv::Mat::Mat(const std::vector<_Tp>&, bool)	myopencv		line 983, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat::Mat(const cv::Mat&, const std::vector<cv::Range>&)	myopencv		line 965, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat::Mat(const cv::Mat&, const cv::Range*)	myopencv		line 955, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat::Mat(const cv::Mat&, const Rect&)	myopencv		line 945, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat::Mat(const cv::Mat&, const cv::Range&, const cv::Range&)	myopencv		line 935, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat::Mat(const std::vector<int>&, int, void*, const size_t*)	myopencv		line 923, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat::Mat(int, const int*, int, void*, const size_t*)	myopencv		line 909, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat::Mat(cv::Size, int, void*, size_t)	myopencv		line 519, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(int, int, int, void*, size_t)	myopencv		line 486, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(const cv::Mat&)	myopencv		line 467, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(const std::vector<int>&, int, const Scalar&)	myopencv		line 458, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(int, const int*, int, const Scalar&)	myopencv		line 441, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(const std::vector<int>&, int)	myopencv		line 450, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(int, const int*, int)	myopencv		line 433, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(cv::Size, int, const Scalar&)	myopencv		line 424, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(int, int, int, const Scalar&)	myopencv		line 407, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(cv::Size, int)	myopencv		line 416, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat(int, int, int)	myopencv		line 399, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat::Mat()	myopencv		line 393, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘o’ was not declared in this scope	myopencv		line 269, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+‘o’ was not declared in this scope	myopencv		line 265, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+prototype for ‘cv::Ptr<T>::Ptr(cv::Ptr<T>)’ does not match any in class ‘cv::Ptr<T>’	myopencv		line 256, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 256, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2524, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+invalid constructor; you probably meant ‘cv::UMat (const cv::UMat&)’	myopencv		line 2523, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2523, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2326, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2324, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2323, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2321, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+invalid constructor; you probably meant ‘cv::Mat_<_Tp> (const cv::Mat_<_Tp>&)’	myopencv		line 2320, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2320, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 2312, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 2211, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 2211, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 2208, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘initializer_list’ in namespace ‘std’ does not name a template type	myopencv		line 2208, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 2207, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+candidates are: cv::Mat_<_Tp>::Mat_(cv::MatExpr)	myopencv		line 2326, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(cv::Mat)	myopencv		line 2323, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> template<long unsigned int _Nm> cv::Mat_<_Tp>::Mat_(int)	myopencv		line 2211, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 220, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 219, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 219, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 216, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                template<class _Tp> template<int m, int n> cv::Mat_<_Tp>::Mat_(const cv::Matx<typename cv::DataType<_Tp>::channel_type, m, n>&, bool)	myopencv		line 2202, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> template<int n> cv::Mat_<_Tp>::Mat_(const cv::Vec<typename cv::DataType<_Tp>::channel_type, n>&, bool)	myopencv		line 2201, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 215, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::Mat_<_Tp>::Mat_(const cv::MatExpr&)	myopencv		line 2198, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 215, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2056, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+invalid constructor; you probably meant ‘cv::Mat (const cv::Mat&)’	myopencv		line 2055, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2055, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+prototype for ‘cv::Mat_<_Tp>::Mat_(cv::Mat_<_Tp>)’ does not match any in class ‘cv::Mat_<_Tp>’	myopencv		line 2004, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2004, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 200, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 200, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 199, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 199, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+‘array’ in namespace ‘std’ does not name a template type	myopencv		line 1934, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+template definition of non-template ‘int cv::_OutputArray::_OutputArray’	myopencv		line 179, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘,’ token	myopencv		line 179, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘int cv::_OutputArray::_OutputArray’ is not a static data member of ‘class cv::_OutputArray’	myopencv		line 179, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘cv::_OutputArray::_OutputArray’ declared as an ‘inline’ variable	myopencv		line 179, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2010, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘move’ is not a member of ‘std’	myopencv		line 2012, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 2012, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2017, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 2021, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2025, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 2027, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘&&’ token	myopencv		line 2029, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘)’ token	myopencv		line 2029, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 2032, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘&&’ token	myopencv		line 2034, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘)’ token	myopencv		line 2034, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 2038, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 2043, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘e’ was not declared in this scope	myopencv		line 2047, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::UMat’ and ‘const cv::UMat’)	myopencv		line 3694, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 3821, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+prototype for ‘cv::UMat::UMat(cv::UMat)’ does not match any in class ‘cv::UMat’	myopencv		line 3821, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+candidates are: template<class _Tp> cv::UMat::UMat(const cv::MatCommaInitializer_<_Tp>&)	myopencv		line 2397, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> cv::UMat::UMat(const cv::Point3_<_Tp>&, bool)	myopencv		line 2395, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> cv::UMat::UMat(const cv::Point_<_Tp>&, bool)	myopencv		line 2393, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp, int m, int n> cv::UMat::UMat(const cv::Matx<_Tp, m, n>&, bool)	myopencv		line 2391, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp, int n> cv::UMat::UMat(const cv::Vec<_Tp, m>&, bool)	myopencv		line 2389, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                template<class _Tp> cv::UMat::UMat(const std::vector<_Tp>&, bool)	myopencv		line 2386, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::UMat::UMat(const cv::UMat&, const std::vector<cv::Range>&)	myopencv		line 2384, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::UMat::UMat(const cv::UMat&, const cv::Range*)	myopencv		line 2383, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::UMat::UMat(const cv::UMat&, const Rect&)	myopencv		line 2382, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::UMat::UMat(const cv::UMat&, const cv::Range&, const cv::Range&)	myopencv		line 2381, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+                cv::UMat::UMat(const cv::UMat&)	myopencv		line 3586, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::UMat::UMat(int, const int*, int, const Scalar&, cv::UMatUsageFlags)	myopencv		line 3578, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::UMat::UMat(int, const int*, int, cv::UMatUsageFlags)	myopencv		line 3571, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::UMat::UMat(cv::Size, int, const Scalar&, cv::UMatUsageFlags)	myopencv		line 3563, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::UMat::UMat(int, int, int, const Scalar&, cv::UMatUsageFlags)	myopencv		line 3548, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::UMat::UMat(cv::Size, int, cv::UMatUsageFlags)	myopencv		line 3556, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::UMat::UMat(int, int, int, cv::UMatUsageFlags)	myopencv		line 3541, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+                cv::UMat::UMat(cv::UMatUsageFlags)	myopencv		line 3536, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘&&’ token	myopencv		line 3845, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 3847, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘m’ was not declared in this scope	myopencv		line 3850, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘function’ in namespace ‘std’ does not name a template type	myopencv		line 537, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+expected ‘)’ before ‘<’ token	myopencv		line 539, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+‘m_functor’ was not declared in this scope	myopencv		line 545, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+‘std::function’ has not been declared	myopencv		line 549, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+expected ‘,’ or ‘...’ before ‘<’ token	myopencv		line 549, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+‘functor’ was not declared in this scope	myopencv		line 551, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+‘nstripes’ was not declared in this scope	myopencv		line 551, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+‘recursive_mutex’ in namespace ‘std’ does not name a type	myopencv		line 653, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+‘lock_guard’ in namespace ‘std’ does not name a template type	myopencv		line 654, external location: /usr/local/include/opencv2/core/utility.hpp	C/C++ Problem
+‘cv::Mutex’ has not been declared	myopencv		line 279, external location: /usr/local/include/opencv2/flann/kmeans_index.h	C/C++ Problem
+‘Mutex’ in namespace ‘cv’ does not name a type	myopencv		line 335, external location: /usr/local/include/opencv2/flann/kmeans_index.h	C/C++ Problem
+class ‘cvflann::KMeansIndex<Distance>::KMeansDistanceComputer’ does not have any field named ‘mtx’	myopencv		line 290, external location: /usr/local/include/opencv2/flann/kmeans_index.h	C/C++ Problem
+‘mtx’ was not declared in this scope	myopencv		line 317, external location: /usr/local/include/opencv2/flann/kmeans_index.h	C/C++ Problem
+‘Mutex’ is not a member of ‘cv’	myopencv		line 804, external location: /usr/local/include/opencv2/flann/kmeans_index.h	C/C++ Problem
+‘mtx’ was not declared in this scope	myopencv		line 805, external location: /usr/local/include/opencv2/flann/kmeans_index.h	C/C++ Problem
+‘array’ is not a member of ‘std’	myopencv		line 179, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::detail::FeaturesFinder>’ and ‘cv::Ptr<cv::detail::FeaturesFinder>’)	myopencv		line 190, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::detail::FeaturesMatcher>’ and ‘cv::Ptr<cv::detail::FeaturesMatcher>’)	myopencv		line 195, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::UMat’ and ‘cv::UMat’)	myopencv		line 201, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::detail::BundleAdjusterBase>’ and ‘cv::Ptr<cv::detail::BundleAdjusterBase>’)	myopencv		line 207, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::WarperCreator>’ and ‘cv::Ptr<cv::WarperCreator>’)	myopencv		line 218, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::detail::ExposureCompensator>’ and ‘cv::Ptr<cv::detail::ExposureCompensator>’)	myopencv		line 223, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::detail::SeamFinder>’ and ‘cv::Ptr<cv::detail::SeamFinder>’)	myopencv		line 227, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::detail::Blender>’ and ‘cv::Ptr<cv::detail::Blender>’)	myopencv		line 231, external location: /usr/local/include/opencv2/stitching.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::Feature2D>’ and ‘cv::Ptr<cv::Feature2D>’)	myopencv		line 229, external location: /usr/local/include/opencv2/videostab/global_motion.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::ISparseOptFlowEstimator>’ and ‘cv::Ptr<cv::videostab::ISparseOptFlowEstimator>’)	myopencv		line 232, external location: /usr/local/include/opencv2/videostab/global_motion.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::IOutlierRejector>’ and ‘cv::Ptr<cv::videostab::IOutlierRejector>’)	myopencv		line 235, external location: /usr/local/include/opencv2/videostab/global_motion.hpp	C/C++ Problem
+‘arr’ was not declared in this scope	myopencv		line 179, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::ImageMotionEstimatorBase>’ and ‘cv::Ptr<cv::videostab::ImageMotionEstimatorBase>’)	myopencv		line 67, external location: /usr/local/include/opencv2/videostab/wobble_suppression.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::ILog>’ and ‘cv::Ptr<cv::videostab::ILog>’)	myopencv		line 71, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::IFrameSource>’ and ‘cv::Ptr<cv::videostab::IFrameSource>’)	myopencv		line 77, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::ImageMotionEstimatorBase>’ and ‘cv::Ptr<cv::videostab::ImageMotionEstimatorBase>’)	myopencv		line 80, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::DeblurerBase>’ and ‘cv::Ptr<cv::videostab::DeblurerBase>’)	myopencv		line 83, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::InpainterBase>’ and ‘cv::Ptr<cv::videostab::InpainterBase>’)	myopencv		line 95, external location: /usr/local/include/opencv2/videostab/stabilizer.hpp	C/C++ Problem
+template definition of non-template ‘int cv::_OutputArray::_OutputArray’	myopencv		line 175, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+expected primary-expression before ‘,’ token	myopencv		line 175, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+‘int cv::_OutputArray::_OutputArray’ is not a static data member of ‘class cv::_OutputArray’	myopencv		line 175, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::IMotionStabilizer>’ and ‘cv::Ptr<cv::videostab::IMotionStabilizer>’)	myopencv		line 343, external location: /usr/include/c++/5/bits/vector.tcc	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::InpainterBase>’ and ‘cv::Ptr<cv::videostab::InpainterBase>’)	myopencv		line 343, external location: /usr/include/c++/5/bits/vector.tcc	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::IMotionStabilizer>’ and ‘cv::Ptr<cv::videostab::IMotionStabilizer>’)	myopencv		line 549, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+ambiguous overload for ‘operator=’ (operand types are ‘cv::Ptr<cv::videostab::InpainterBase>’ and ‘cv::Ptr<cv::videostab::InpainterBase>’)	myopencv		line 549, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+Build path specifies execution environment JavaSE-1.7. There are no JREs installed in the workspace that are strictly compatible with this environment. 	HelloCV		Build path	JRE System Library Problem
+required from here	myopencv		line 111, external location: /usr/local/include/opencv2/videostab/inpainting.hpp	C/C++ Problem
+candidate: cv::Mat& cv::Mat::operator=(cv::Mat)	myopencv		line 1353, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::detail::Blender]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::detail::BundleAdjusterBase]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::detail::ExposureCompensator]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::detail::FeaturesFinder]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::detail::FeaturesMatcher]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::detail::SeamFinder]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::Feature2D]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::DeblurerBase]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::IDenseOptFlowEstimator]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::IFrameSource]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::ILog]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::ImageMotionEstimatorBase]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::IMotionStabilizer]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::InpainterBase]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::IOutlierRejector]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::ISparseOptFlowEstimator]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::MotionFilterBase]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::videostab::WobbleSuppressorBase]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<T>&) [with T = cv::WarperCreator]	myopencv		line 160, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::detail::Blender; T = cv::detail::Blender]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::detail::BundleAdjusterBase; T = cv::detail::BundleAdjusterBase]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::detail::ExposureCompensator; T = cv::detail::ExposureCompensator]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::detail::FeaturesFinder; T = cv::detail::FeaturesFinder]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::detail::FeaturesMatcher; T = cv::detail::FeaturesMatcher]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::detail::SeamFinder; T = cv::detail::SeamFinder]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::Feature2D; T = cv::Feature2D]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::DeblurerBase; T = cv::videostab::DeblurerBase]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::IDenseOptFlowEstimator; T = cv::videostab::IDenseOptFlowEstimator]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::IFrameSource; T = cv::videostab::IFrameSource]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::ILog; T = cv::videostab::ILog]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::ImageMotionEstimatorBase; T = cv::videostab::ImageMotionEstimatorBase]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::IMotionStabilizer; T = cv::videostab::IMotionStabilizer]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::InpainterBase; T = cv::videostab::InpainterBase]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::IOutlierRejector; T = cv::videostab::IOutlierRejector]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::ISparseOptFlowEstimator; T = cv::videostab::ISparseOptFlowEstimator]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::MotionFilterBase; T = cv::videostab::MotionFilterBase]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::videostab::WobbleSuppressorBase; T = cv::videostab::WobbleSuppressorBase]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(const cv::Ptr<Y>&) [with Y = cv::WarperCreator; T = cv::WarperCreator]	myopencv		line 168, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Mat& cv::Mat::operator=(cv::Mat)	myopencv		line 2056, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+candidate: cv::UMat& cv::UMat::operator=(cv::UMat)	myopencv		line 2524, external location: /usr/local/include/opencv2/core/mat.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::detail::Blender]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::detail::BundleAdjusterBase]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::detail::ExposureCompensator]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::detail::FeaturesFinder]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::detail::FeaturesMatcher]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::detail::SeamFinder]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::Feature2D]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::DeblurerBase]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::IDenseOptFlowEstimator]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::IFrameSource]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::ILog]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::ImageMotionEstimatorBase]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::IMotionStabilizer]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::InpainterBase]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::IOutlierRejector]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::ISparseOptFlowEstimator]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::MotionFilterBase]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::videostab::WobbleSuppressorBase]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+candidate: cv::Ptr<T>& cv::Ptr<T>::operator=(cv::Ptr<T>) [with T = cv::WarperCreator]	myopencv		line 263, external location: /usr/local/include/opencv2/core/ptr.inl.hpp	C/C++ Problem
+required from ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, const _Tp&) [with _Tp = cv::Ptr<cv::videostab::IMotionStabilizer>; _Alloc = std::allocator<cv::Ptr<cv::videostab::IMotionStabilizer> >; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<cv::Ptr<cv::videostab::IMotionStabilizer>*, std::vector<cv::Ptr<cv::videostab::IMotionStabilizer> > >; typename std::_Vector_base<_Tp, _Alloc>::pointer = cv::Ptr<cv::videostab::IMotionStabilizer>*]’	myopencv		line 339, external location: /usr/include/c++/5/bits/vector.tcc	C/C++ Problem
+required from ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, const _Tp&) [with _Tp = cv::Ptr<cv::videostab::InpainterBase>; _Alloc = std::allocator<cv::Ptr<cv::videostab::InpainterBase> >; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<cv::Ptr<cv::videostab::InpainterBase>*, std::vector<cv::Ptr<cv::videostab::InpainterBase> > >; typename std::_Vector_base<_Tp, _Alloc>::pointer = cv::Ptr<cv::videostab::InpainterBase>*]’	myopencv		line 339, external location: /usr/include/c++/5/bits/vector.tcc	C/C++ Problem
+candidate: cv::UMat& cv::UMat::operator=(const cv::UMat&)	myopencv		line 3620, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+candidate: cv::UMat& cv::UMat::operator=(cv::UMat)	myopencv		line 3845, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+required from ‘_BI2 std::__copy_move_backward_a(_BI1, _BI1, _BI2) [with bool _IsMove = false; _BI1 = cv::Ptr<cv::videostab::IMotionStabilizer>*; _BI2 = cv::Ptr<cv::videostab::IMotionStabilizer>*]’	myopencv		line 604, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+required from ‘_BI2 std::__copy_move_backward_a(_BI1, _BI1, _BI2) [with bool _IsMove = false; _BI1 = cv::Ptr<cv::videostab::InpainterBase>*; _BI2 = cv::Ptr<cv::videostab::InpainterBase>*]’	myopencv		line 604, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+required from ‘_BI2 std::__copy_move_backward_a2(_BI1, _BI1, _BI2) [with bool _IsMove = false; _BI1 = cv::Ptr<cv::videostab::IMotionStabilizer>*; _BI2 = cv::Ptr<cv::videostab::IMotionStabilizer>*]’	myopencv		line 614, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+required from ‘_BI2 std::__copy_move_backward_a2(_BI1, _BI1, _BI2) [with bool _IsMove = false; _BI1 = cv::Ptr<cv::videostab::InpainterBase>*; _BI2 = cv::Ptr<cv::videostab::InpainterBase>*]’	myopencv		line 614, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+required from ‘_BI2 std::copy_backward(_BI1, _BI1, _BI2) [with _BI1 = cv::Ptr<cv::videostab::IMotionStabilizer>*; _BI2 = cv::Ptr<cv::videostab::IMotionStabilizer>*]’	myopencv		line 649, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+required from ‘_BI2 std::copy_backward(_BI1, _BI1, _BI2) [with _BI1 = cv::Ptr<cv::videostab::InpainterBase>*; _BI2 = cv::Ptr<cv::videostab::InpainterBase>*]’	myopencv		line 649, external location: /usr/include/c++/5/bits/stl_algobase.h	C/C++ Problem
+candidate: cv::Mat& cv::Mat::operator=(const cv::Mat&)	myopencv		line 693, external location: /usr/local/include/opencv2/core/mat.inl.hpp	C/C++ Problem
+required from here	myopencv		line 73, external location: /usr/local/include/opencv2/videostab/motion_stabilizing.hpp	C/C++ Problem
+required from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = cv::Ptr<cv::videostab::IMotionStabilizer>; _Alloc = std::allocator<cv::Ptr<cv::videostab::IMotionStabilizer> >; std::vector<_Tp, _Alloc>::value_type = cv::Ptr<cv::videostab::IMotionStabilizer>]’	myopencv		line 925, external location: /usr/include/c++/5/bits/stl_vector.h	C/C++ Problem
+required from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = cv::Ptr<cv::videostab::InpainterBase>; _Alloc = std::allocator<cv::Ptr<cv::videostab::InpainterBase> >; std::vector<_Tp, _Alloc>::value_type = cv::Ptr<cv::videostab::InpainterBase>]’	myopencv		line 925, external location: /usr/include/c++/5/bits/stl_vector.h	C/C++ Problem
